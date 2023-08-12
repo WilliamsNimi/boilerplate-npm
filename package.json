@@ -1,10 +1,12 @@
 {
 	"name": "fcc-learn-npm-package-json",
-	"description": "A project that does something awesome",
+  	"description": "A project that does something awesome",
 	"author": "Nimi Williams",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
+  	"keywords": [ "descriptive", "related", "words", "freecodecamp" ],
+  	"license": "MIT",
+		"dependencies": {
+			"express": "^4.14.0"
+		},
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
